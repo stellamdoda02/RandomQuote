@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     margin: 0;
+     background:url('backIM.jpg');
+     background-color:rgb(198, 230, 226);
+}
+
+.quote-container {
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(162, 205, 164);
+  background-size: cover;
+  padding: 100px;
+  border-radius: 60px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(154, 7, 7, 0.1);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4f0b4fc4;
+  font-style: italic;
+}
+
+#author {
+    font-size: 20px;
+    
+    margin-bottom:20px;
+    color: #4f0b4fc4;
+   
+  margin-top: -6px;
+  font-size: 0.875em;
+}
+
+button {
+    background-image: linear-gradient(
+        to right,
+        rgba(137, 3, 199, 0.364),
+        rgba(6, 151, 183, 0.367)
+      );
+      border-radius: 100vh;
+      border: inherit;
+      --bs-btn-color: #ffffffee;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: rgb(105, 51, 115);
+      --bs-btn-hover-border-color: rgb(105, 51, 115);
+      letter-spacing: 1px;
+      font-weight: bolder;
+      box-shadow: 1px 3px 7px -5px #4f0b4fc4;
+      font-size: 30px;
+}
+
+
+ h1
+    {
+        font-family: var(--heading-font);
+        letter-spacing: 1px;
+        color: #4f0b4fc4;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        width: 100%;
+        color: rgb(101, 5, 5);
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+      @media screen and (max-width: 415px) {
+        h1 {
+          font-size: 20px;
+        }
+        #quote{
+          font-size: 18px;
+        }
+
+        
+      }
+      
+      
